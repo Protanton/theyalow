@@ -1,38 +1,38 @@
 @media only screen and (min-width: 641px) {
     @font-face {
         font-family: 'Cust-Logo';
-        src: url("assets/font-logo.ttf");
+        src: url("../assets/font-logo.ttf");
     }
     
     @font-face {
         font-family: 'Segoe WP';
-        src: url("assets/Segoe WP.ttf");
+        src: url("../assets/Segoe WP.ttf");
     }
     
     @font-face {
         font-family: 'Cust-Banner';
-        src: url("assets/font-banner.ttf");
+        src: url("../assets/font-banner.ttf");
     }
     
     @font-face {
         font-family: 'PT Sans';
-        src: url("assets/PT Sans.ttf");
+        src: url("../assets/PT Sans.ttf");
     }
     
     @font-face {
         font-family: 'Segoe WP Light';
-        src: url("assets/Segoe WP Light.ttf");
+        src: url("../assets/Segoe WP Light.ttf");
     }
     
     @font-face {
         font-family: 'Open Sans Regular';
-        src: url("assets/OpenSans-Regular.ttf");
+        src: url("../assets/OpenSans-Regular.ttf");
     }
 
     body {
         width: 100%;
         margin: 0 auto;
-        background: calc(50vw - 660px) 0 url("assets/background.png") no-repeat;
+        background: calc(50vw - 660px) 0 url("../assets/background.png") no-repeat;
     }
 
     body::before, body::after {
@@ -106,17 +106,17 @@
     }
 
     .about {
-        background: 39px 11px url("assets/icon-aboutus.svg") no-repeat;
+        background: 39px 11px url("../assets/icon-aboutus.svg") no-repeat;
         text-indent: 69px;
     }
 
     .services {
-        background: 15px 11px url("assets/icon-services.svg") no-repeat;
+        background: 15px 11px url("../assets/icon-services.svg") no-repeat;
         text-indent: 43px;
     }
 
     .contact {
-        background: 18px 11px url("assets/icon-contact.svg") no-repeat;
+        background: 18px 11px url("../assets/icon-contact.svg") no-repeat;
         text-indent: 50px;
         border-right: 0;
     }
@@ -152,12 +152,12 @@
 
     .ctrl-l {
         float: left;
-        background: 8px url(assets/icon-left.svg) rgba(245, 197, 6, .73) no-repeat;
+        background: 8px url(../assets/icon-left.svg) rgba(245, 197, 6, .73) no-repeat;
     }
 
     .ctrl-r {
         float: right;
-        background: 11px url(assets/icon-right.svg) rgba(245, 197, 6, 1) no-repeat;
+        background: 11px url(../assets/icon-right.svg) rgba(245, 197, 6, 1) no-repeat;
     }
 
     .banners {
@@ -174,7 +174,7 @@
 
     .video {
         position: absolute;
-        background: -53px -1px url(./assets/video-ph.png) #000 no-repeat;
+        background: -53px -1px url(../assets/video-ph.png) #000 no-repeat;
     }
 
     .player {
@@ -303,7 +303,7 @@
 
     .icon-area {
         box-shadow: 0 0 6px rgba(0,0,0,.7);
-        background-image: url("assets/icon-area-bg.png");
+        background-image: url("../assets/icon-area-bg.png");
         z-index: 2;
         display: grid;
         grid-template: auto / repeat(3, 340px);
@@ -362,7 +362,7 @@
     }
 
     .news-area {
-        background: url(assets/news-bg.png) no-repeat;
+        background: url(../assets/news-bg.png) no-repeat;
         z-index: 1;
         display: grid;
         grid-template: 110px 319px 43px 15px / 1023px;
@@ -416,7 +416,7 @@
     .news-plus {
         width: 11px;
         height: 11px;
-        background: url("assets/news-plus.svg") no-repeat;
+        background: url("../assets/news-plus.svg") no-repeat;
         border: 0;
         outline: none;
         opacity: .7;
@@ -524,7 +524,7 @@
     }
 
     .pros-area {
-        background: url("assets/pros-bg.png") no-repeat;
+        background: url("../assets/pros-bg.png") no-repeat;
         height: 100%;
         grid-template: 37px 57px 344px / auto;
         display: grid;
