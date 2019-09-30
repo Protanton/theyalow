@@ -1,29 +1,29 @@
 @media only screen and (max-width: 640px) {
     @font-face {
         font-family: 'Cust-Logo';
-        src: url("assets/font-logo.ttf");
+        src: url("../assets/font-logo.ttf");
     }
     
     @font-face {
         font-family: 'Segoe WP';
-        src: url("assets/Segoe WP.ttf");
+        src: url("../assets/Segoe WP.ttf");
     }
     
     @font-face {
         font-family: 'Cust-Banner';
-        src: url("assets/font-banner.ttf");
+        src: url("../assets/font-banner.ttf");
     }
     @font-face {
         font-family: 'PT Sans';
-        src: url("assets/PT Sans.ttf");
+        src: url("../assets/PT Sans.ttf");
     }
     @font-face {
         font-family: 'Segoe WP Light';
-        src: url("assets/Segoe WP Light.ttf");
+        src: url("../assets/Segoe WP Light.ttf");
     }
     @font-face {
         font-family: 'Open Sans Regular';
-        src: url("assets/OpenSans-Regular.ttf");
+        src: url("../assets/OpenSans-Regular.ttf");
     }
 
     body {
@@ -40,7 +40,7 @@
         margin:0;
         display: grid;
         grid-template: 11px 39px 12px / 12px 39px 6px auto 20px;
-        background: url("assets/m-logo-bg.png") no-repeat;
+        background: url("../assets/m-logo-bg.png") no-repeat;
     }
 
     .logo img {
@@ -99,19 +99,19 @@
     }
     
     .about {
-        background: 23px 20px url(assets/icon-aboutus.svg) no-repeat;
+        background: 23px 20px url(../assets/icon-aboutus.svg) no-repeat;
         background-size: 24px;
         text-indent: 58px;
     }
 
     .services {
-        background: 8px 21px url(assets/icon-services.svg) no-repeat;
+        background: 8px 21px url(../assets/icon-services.svg) no-repeat;
         text-indent: 38px;
         background-size: 22px;
     }
 
     .contact {
-        background: 12px 20px url(assets/icon-contact.svg) no-repeat;
+        background: 12px 20px url(../assets/icon-contact.svg) no-repeat;
         text-indent: 51px;
         border-right: 0;
         background-size: 28px;
@@ -154,12 +154,12 @@
 
     .ctrl-l {
         float: left;
-        background: 8px url(assets/icon-left.svg) rgba(245, 197, 6, .73) no-repeat;
+        background: 8px url(../assets/icon-left.svg) rgba(245, 197, 6, .73) no-repeat;
     }
 
     .ctrl-r {
         float: right;
-        background: 11px url(assets/icon-right.svg) rgba(245, 197, 6, 1) no-repeat;
+        background: 11px url(../assets/icon-right.svg) rgba(245, 197, 6, 1) no-repeat;
     }
     
     
@@ -177,7 +177,7 @@
 
     .video {
         position: absolute;
-        background: url(./assets/video-ph.png) #000 no-repeat;
+        background: url(../assets/video-ph.png) #000 no-repeat;
         width: 100vw;
         height: 345px;
     }
@@ -307,7 +307,7 @@
     
     .icon-area {
         box-shadow: 0 -4px 0 rgba(255, 255, 255, 0.35), 0 -9px 0 rgba(255, 255, 255, 0.35);
-        background-image: url("assets/icon-area-bg.png");
+        background-image: url("../assets/icon-area-bg.png");
         background-color: #fff;
         z-index: 2;
         display: grid;
@@ -431,7 +431,7 @@
     .news-plus {
         width: 11px;
         height: 11px;
-        background: url("assets/news-plus.svg") no-repeat;
+        background: url("../assets/news-plus.svg") no-repeat;
         border: 0;
         outline: none;
         opacity: .7;
@@ -519,7 +519,7 @@
         opacity: .8;
         margin-bottom: 14px;
         height: 35px;
-        background: url(assets/tweet.png) no-repeat;
+        background: url(../assets/tweet.png) no-repeat;
         font-family: Arial;
         font-size: 13px;
         padding-left: 28px;
@@ -598,7 +598,7 @@
     }
     
     .pros-area {
-        background: url("assets/pros-bg.png") no-repeat;
+        background: url("../assets/pros-bg.png") no-repeat;
         height: 100%;
         grid-template: 32px 82px 344px / 100%;
         display: grid;
